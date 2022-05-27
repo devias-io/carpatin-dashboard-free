@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
-import { InputBase } from '@material-ui/core';
-import { styled } from '@material-ui/core/styles';
+import { InputBase } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { Search as SearchIcon } from '../icons/search';
 
 const QueryRoot = styled('div')(

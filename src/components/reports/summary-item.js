@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Avatar, Box, Card, Typography } from '@material-ui/core';
+import { Avatar, Box, Card, Typography } from '@mui/material';
 
 export const SummaryItem = (props) => {
   const { content, icon: Icon, label, ...other } = props;

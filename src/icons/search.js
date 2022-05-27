@@ -1,4 +1,4 @@
-import { createSvgIcon } from '@material-ui/core/utils';
+import { createSvgIcon } from '@mui/material/utils';
 
 export const Search = createSvgIcon(
   <svg

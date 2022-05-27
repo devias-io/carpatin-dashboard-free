@@ -1,5 +1,5 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { AppBar, Avatar, Box, Link, Toolbar } from '@material-ui/core';
+import { AppBar, Avatar, Box, Link, Toolbar } from '@mui/material';
 import { Logo } from './logo';
 
 export const Navbar = () => (

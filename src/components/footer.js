@@ -1,4 +1,4 @@
-import { Box, Container, Link, Typography } from '@material-ui/core';
+import { Box, Container, Link, Typography } from '@mui/material';
 
 export const Footer = () => (
   <Box component="footer">

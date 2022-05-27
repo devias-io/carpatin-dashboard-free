@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
-import { Box, Button, Card, Container, Divider, TablePagination, Typography } from '@material-ui/core';
+import { Box, Button, Card, Container, Divider, TablePagination, Typography } from '@mui/material';
 import { OrdersFilter } from '../components/orders/orders-filter';
 import { OrdersTable } from '../components/orders-table';
 import { orders } from '../__mocks__/orders';

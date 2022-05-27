@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import { styled } from '@material-ui/core/styles';
+import { styled } from '@mui/material/styles';
 import { Navbar } from './navbar';
 import { Sidebar } from './sidebar';
 import { Footer } from './footer';
 
-const DashboardLayoutRoot = styled('div')(
+const LayoutRoot = styled('div')(
   ({ theme }) => ({
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
@@ -14,7 +14,7 @@ const DashboardLayoutRoot = styled('div')(
   })
 );
 
-const DashboardLayoutContentWrapper = styled('div')(
+const LayoutContent = styled('div')(
   () => ({
     display: 'flex',
     flex: '1 1 auto',
@@ -24,7 +24,7 @@ const DashboardLayoutContentWrapper = styled('div')(
   })
 );
 
-const DashboardLayoutContent = styled('div')({
+const LayoutContainer = styled('div')({
   display: 'flex',
   flex: '1 1 auto',
   flexDirection: 'column',
@@ -32,14 +32,14 @@ const DashboardLayoutContent = styled('div')({
 });
 
 export const Layout = () => (
-  <DashboardLayoutRoot>
+  <LayoutRoot>
     <Navbar />
     <Sidebar />
-    <DashboardLayoutContentWrapper>
-      <DashboardLayoutContent>
+    <LayoutContent>
+      <LayoutContainer>
         <Outlet />
         <Footer />
-      </DashboardLayoutContent>
-    </DashboardLayoutContentWrapper>
-  </DashboardLayoutRoot>
+      </LayoutContainer>
+    </LayoutContent>
+  </LayoutRoot>
 );

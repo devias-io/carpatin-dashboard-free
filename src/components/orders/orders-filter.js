@@ -4,7 +4,7 @@ import {
   Button,
   ToggleButton,
   ToggleButtonGroup
-} from '@material-ui/core';
+} from '@mui/material';
 import { Adjustments as AdjustmentsIcon } from '../../icons/adjustments';
 import { ViewGrid as ViewGridIcon } from '../../icons/view-grid';
 import { ViewList as ViewListIcon } from '../../icons/view-list';

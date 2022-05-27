@@ -12,7 +12,7 @@ import {
   MenuItem,
   TextField,
   Typography
-} from '@material-ui/core';
+} from '@mui/material';
 
 const companySizeOptions = ['1-10', '11-30', '31-50', '50+'];
 

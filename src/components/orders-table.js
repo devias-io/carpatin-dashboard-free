@@ -11,7 +11,7 @@ import {
   TableHead,
   TableRow,
   Typography
-} from '@material-ui/core';
+} from '@mui/material';
 import { Scrollbar } from './scrollbar';
 
 const statusVariants = [

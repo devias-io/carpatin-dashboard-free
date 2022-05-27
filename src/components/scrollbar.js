@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 import SimpleBar from 'simplebar-react';
-import { Box } from '@material-ui/core';
+import { Box } from '@mui/material';
 
 export const Scrollbar = forwardRef((props, ref) => {
   const { children, ...other } = props;

@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Box, Card, Container, Grid, Link, Typography } from '@material-ui/core';
+import { Box, Card, Container, Grid, Link, Typography } from '@mui/material';
 import { Cog as CogIcon } from '../icons/cog';
 import { DocumentText as DocumentTextIcon } from '../icons/document-text';
 import { Home as HomeIcon } from '../icons/home';

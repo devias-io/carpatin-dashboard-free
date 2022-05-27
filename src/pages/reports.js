@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Box, Card, CardHeader, Container, Divider, Grid, Typography } from '@material-ui/core';
+import { Box, Card, CardHeader, Container, Divider, Grid, Typography } from '@mui/material';
 import { SummaryItem } from '../components/reports/summary-item';
 import { PerformanceIndicators } from '../components/reports/performance-indicators';
 import { OrdersTable } from '../components/orders-table';

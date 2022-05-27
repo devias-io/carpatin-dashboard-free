@@ -1,5 +1,5 @@
 import { Link as RouterLink, matchPath, useLocation } from 'react-router-dom';
-import { Drawer, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
+import { Drawer, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { Cog as CogIcon } from '../icons/cog';
 import { DocumentText as DocumentTextIcon } from '../icons/document-text';
 import { Home as HomeIcon } from '../icons/home';
